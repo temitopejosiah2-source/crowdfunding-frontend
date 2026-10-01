@@ -1,0 +1,26 @@
+:root {
+  --ink: #20291b;
+  --green: #71934a;
+  --green-dark: #4b6935;
+  --muted: #858b7c;
+  --line: #e2e5dc;
+  --paper: #fff;
+  --wash: #f7f8f3;
+  --body: 'DM Sans', sans-serif;
+  --display: 'Manrope', sans-serif;
+  --mono: 'DM Mono', monospace;
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button,input,select { font: inherit; }
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+::selection { background: #dce9be; color: var(--ink); }
